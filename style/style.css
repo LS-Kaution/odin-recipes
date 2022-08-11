@@ -2,12 +2,16 @@ html {
     height: 100%;
 }
 
-body {
-    height: 100%;
-    background-image: url(/style/space-xd.jpg);
+.heading {
+    text-align: center;
 }
 
-.planets {
+body {
+    height: 100%;
+    background-image: url(/images/wallpaper-index-recipes.jpg);
+}
+
+.recipes {
     gap: 50px;
     height: 100%;
     display: flex;
@@ -15,13 +19,13 @@ body {
     align-items: center;
 }
 
-.planet {
-    height: 200px;
-    width: 200px;
+.recipe {
+    height: 500px;
+    width: 250px;
     transition: width 1s, height 1s;
 }
 
-.planet:hover {
-    height: 300px;
-    width: 300px;
+.recipe:hover {
+    height: 600px;
+    width: 350px;
 }
