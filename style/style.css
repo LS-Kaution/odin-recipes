@@ -1,0 +1,27 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url(/style/space-xd.jpg);
+}
+
+.planets {
+    gap: 50px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.planet {
+    height: 200px;
+    width: 200px;
+    transition: width 1s, height 1s;
+}
+
+.planet:hover {
+    height: 300px;
+    width: 300px;
+}
